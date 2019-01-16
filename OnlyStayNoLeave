@@ -1,0 +1,115 @@
+/* HorribleSubs Premium Custom Themes and Addons */
+/* Version: 001b */
+/* Style: Shield Hero (Tate no Yuusha no Nariagari) */
+
+
+/* ----- Website Background -----*/
+
+#page:after {
+    background: urL(https://i.imgur.com/fiEWbkb.jpg);
+    background-attachment: fixed;
+    content: '';
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+
+.content-area {
+    opacity: 0.9;
+}
+
+/* ----- Box below the Current Time -----*/
+
+.homepage-sponsor.text-center:after {
+    content: '';
+    height: 300px;
+    width: 100%;
+    display: block;
+    background: url('https://i.imgur.com/OCGR06x.png');
+}
+
+.homepage-sponsor.text-center img {
+    display: none;
+}
+
+/* ----- Main Banner Jlist says thanks ----- */
+
+#primary main .latest-sponsor a:before {
+    content: '';
+    height: 261px;
+    width: 100%;
+    display: block;
+    background: url(https://i.imgur.com/NOrry63.png);
+}
+
+#primary main .latest-sponsor img {
+    display: none;
+}
+
+/* ----- The main colour options ----- */
+
+
+/* ----- Current Time Box ----- */
+
+
+/* Premium name do not touch */
+
+.site-name::after {
+    content: 'PREMIUM';
+    font-size: 35px;
+    top: 5px;
+    color: #ae6363;
+    position: relative;
+}
+
+/* -----This controls the bottom right image----- */
+
+#content {
+    background-image: url(https://i.imgur.com/b0GmJN1.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-attachment: fixed;
+}
+
+/* ----- Dark Theme Enabled = yes */
+
+body {
+    background-image: none;
+}
+
+.post-inner-content {
+    background: #000;
+}
+
+.latest-releases .active {
+    background: #000;
+}
+
+.latest-releases a {
+    color: #fff;
+}
+
+
+.homepage-well {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+div#disqus_thread {
+    background: #000;
+}
+
+.latest-releases a:hover, .latest-show-more a:hover {
+    color: #000;
+}
+
+.latest-releases .active a:hover {
+    background: #fff !important;
+    color: #000;
+}
+
+/* ----- END ----- */
